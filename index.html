@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <div id="contot" style="border:1px solid black">
+            <h3>TOTALE : <span id="tot"> 0 </span> EUR </h3>
+        </div>
+        <div id="contenitore">
+            <div class="card" style="border:1px solid red">
+                <div>
+                    <img src="data:image/jpeg;base64,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" alt="foto">
+                    <p><span class="price"> 300 </span> EUR </p>
+                </div>
+                <button class="bt+">+</button>
+                <p class="quantita">0</p>
+                <button class="bt-">-</button>
+                <button class="rmv">remove</button>
+                <button class="like">like</button>
+            </div>
+            
+            <div class="card" style="border:1px solid red">
+                <div>
+                    <img src="https://www.scarpedacalciomagista.com/7034-large_default/scarpa-da-calcio-nike-mercurial-superfly-5-fg-uomo-quinto-triunfo-oro-bianco.jpg" alt="foto">
+                    <p><span class="price"> 200 </span> EUR </p>
+                </div>
+                <button class="bt+">+</button>
+                <p class="quantita">0</p>
+                <button class="bt-">-</button>
+                <button class="rmv">remove</button>
+                <button class="like">like</button>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+        <script src="main.js"></script>
+    </body>
+</html>
